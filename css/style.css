@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif; 
+ font-family: 'Homemade Apple', cursive; 
+  font-family: 'Roboto Slab', serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --red-realtify: #d35649;
+  --blue-realtify: #509bd7;
+  --gray-realtify: #98a5a6;
+  --black-realtify: #333;
+  --white-realtify: #efefef;
+}
+
+.hidden {
+  display: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+/* Navbar */
+
+.mobile-nav {
+  width: 100%;
+  height: 70px; 
+}
+
+.nav__logo-container {
+  display: flex;
+  justify-content: center;
+  background: var(--red-realtify);
+  align-items: center;
+  padding: 5px 0;
+}
+
+.nav__logo {
+  border: 5px solid var(--gray-realtify);
+  background: var(--white-realtify);
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.nav__title {
+  color: var(--white-realtify);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+.nav__icons-container {
+  display: flex;
+  justify-content: center;
+  background: var(--gray-realtify);
+  height: 50px;
+  align-items: center;
+}
+
+.nav__icons-border {
+  background: var(--gray-realtify);
+  border: 3px solid var(--white-realtify);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-realtify);
+  margin: 0 4px;
+}
+
+.icons-style {
+  color: var(--white-realtify);
+}
+
+.icons-style:hover {
+  color: var(--white-realtify);
+}
+
+.nav__icons-border:hover {
+  background: var(--red-realtify);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black-realtify);
+}
+
+.tablet-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .tablet-nav {
+    width: 100%; 
+    display: block;
+
+  }
+
+  .logo-title-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav__logo-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+  .nav__logo {
+    border: 8px solid var(--gray-realtify);
+    background: var(--white-realtify);
+    border-radius: 50%;
+    width: 65px;
+  }
+  
+  .nav__title {
+    color: var(--white-realtify);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    margin-left: 5px;
+    font-size: 2.75rem;
+  }
+  
+  .nav__icons-container {  
+    align-items: center;
+    margin-right: 2rem;
+    background: var(--red-realtify);
+  }
+  
+  .nav__icons-border {
+    background: var(--gray-realtify);
+    border: 3px solid var(--white-realtify);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-realtify);
+    margin: 0 0.4rem 0 1rem;
+  }
+  
+  .icons-style {
+    color: var(--white-realtify);
+  }
+  
+  .icons-style:hover {
+    color: var(--white-realtify);
+  }
+  
+  .nav__icons-border:hover {
+    background: var(--red-realtify);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black-realtify);
+  }
+
+  .nav__icons-links {
+    text-decoration: none;
+    color: var(--white-realtify);
+  } 
+
+  .nav__icons-links:hover {
+    text-decoration: underline;
+    color: var(--white-realtify);
+  }
+
+  .nav__gray-section {
+    background: var(--gray-realtify);
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav__gray-title {
+    color: var(--white-realtify);
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.15rem;
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  }
+
+  .extra-icons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .nav__icons-container {
+    display: none;
+  }
+
+  .extra-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    background: var(--red-realtify);
+  }
+  
+}
+
+/* Main */
+
