@@ -3,8 +3,8 @@
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif; 
- font-family: 'Homemade Apple', cursive; 
-  font-family: 'Roboto Slab', serif; */
+font-family: 'Homemade Apple', cursive; 
+font-family: 'Roboto Slab', serif; */
 
 * {
   padding: 0;
@@ -40,6 +40,7 @@ font-family: 'Roboto Slab', serif;
   background: var(--red-realtify);
   align-items: center;
   padding: 5px 0;
+  
 }
 
 .nav__logo {
@@ -223,3 +224,48 @@ font-family: 'Roboto Slab', serif;
 
 /* Main */
 
+.ny__bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.search-form-small {
+  display: block;
+  border: none;
+  background: var(--gray-realtify);
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.search-form-small-wrapper {
+  
+
+}
+
+.search-input {
+  margin: 0;
+  border: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 250px;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.search-btn {
+  background: var(--red-realtify);
+  color: var(--white-realtify);
+  border: none;
+  width: 100%;
+  margin: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  line-height: 2rem;
+}
+
+.search-btn-link {
+  color: var(--white-realtify);
+  text-decoration: none;
+}
