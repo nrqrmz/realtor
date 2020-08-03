@@ -15,6 +15,7 @@ font-family: 'Roboto Slab', serif; */
   --red-realtify: #d35649;
   --blue-realtify: #509bd7;
   --gray-realtify: #98a5a6;
+  --gray2-realtify: #656666;
   --black-realtify: #333;
   --white-realtify: #efefef;
   --dark-realtify: #000;
@@ -834,5 +835,52 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .gray__footer {
-  background: var(--gray-realtify);
+  background: var(--gray2-realtify);
+  width: 100%;
+  padding: 1rem 0;
+
+}
+
+.gf-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%
+}
+
+.gf-links {
+  text-decoration: none;
+  color: var(--gray-realtify);
+}
+
+.gf-wrapper {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem 0;
+  margin: 0 1rem;
+  color: var(--gray-realtify);
+}
+
+.gfw-powered {
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .gf-icons {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%
+  }
+
+  .gfi-style {
+    padding: 0 1rem;
+  }
+
+  .gf-wrapper {
+    display: flex;
+  }
+
+  .gfw-powered {
+    padding: 0 0 0 1rem;
+  }
 }
