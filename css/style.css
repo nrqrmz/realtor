@@ -485,7 +485,8 @@ font-family: 'Roboto Slab', serif; */
   color: var(--white-realtify);
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  margin: 0 1rem;  
+  margin: 0 3rem;
+  line-height: 1.8rem;
 }
 
 .bfb1 {
