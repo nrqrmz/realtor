@@ -295,13 +295,15 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .four__steps-cards {
-  padding: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
 }
 
 .four__steps-cards:hover {
   background: #efefff;
   box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.50);
-  border-radius: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
 }
 
 .fsc-icons {
@@ -326,6 +328,15 @@ font-family: 'Roboto Slab', serif; */
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .four__steps-grid {
+    padding: 0 3rem;
+    grid-gap: 3rem;
+  }
+
 }
 
 .banners__and__features {
