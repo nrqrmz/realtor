@@ -769,7 +769,7 @@ font-family: 'Roboto Slab', serif; */
   .bfa-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
-    1rem
+    font-size: 1rem;
   }
   
   .bfc-link {
@@ -1027,4 +1027,57 @@ font-family: 'Roboto Slab', serif; */
 .srsbwb2:hover {
   color: var(--white-realtify);
   text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  
+  .srsearch-box {
+    width: 100%;
+    margin: 3rem 0;
+    padding: 2rem 0;
+
+  }
+
+  .srsb-title {
+    
+    padding-bottom: 1rem; /* so what?! */
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .srsb-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 0 0;
+    justify-content: center;
+    /* border: 1px solid blue; */
+  }
+  
+  .srsbw-cont {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  
+  .srsbwb-cont {
+    width: auto;    
+    padding: 1.9rem 0 0 0.5rem;
+    margin: 0;   
+  }
+  
+
+  .srsbwlh {
+    padding: 0.1rem 0;
+    width: 150px;
+    text-indent: 10px;
+    margin-left: 5px;    
+  }
+  
+  .srsbwi {
+    text-indent: 10px;
+    width: 150px;
+  }
 }
