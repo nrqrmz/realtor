@@ -251,9 +251,6 @@
 }
 
 .nyt-main-titlelg {
-  /* color: var(--white-realtify);
-  font-family: 'Montserrat', sans-serif;
-  padding-bottom: 3rem; */
   display: none;
 }
 
@@ -868,7 +865,7 @@
     color: var(--white-realtify);
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 1rem;
-    font-size: 1.8;
+    font-size: 1.8rem;
   }
 
   .bfsi-input {
