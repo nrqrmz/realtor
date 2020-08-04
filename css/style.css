@@ -610,6 +610,7 @@ font-family: 'Roboto Slab', serif; */
   color: var(--white-realtify);
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .bfsi-input {
@@ -628,18 +629,21 @@ font-family: 'Roboto Slab', serif; */
   color: var(--gray-realtify);
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .bfa-paragraph {
   color: var(--gray-realtify);
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .bfc-link {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: var(--red-realtify);
+  font-size: 0.8rem;
 }
 
 .bfc-link:hover {
@@ -741,6 +745,7 @@ font-family: 'Roboto Slab', serif; */
     color: var(--white-realtify);
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 1rem;
+    font-size: 1.2rem;
   }
   
   .bfsi-input {
@@ -758,17 +763,20 @@ font-family: 'Roboto Slab', serif; */
   .bfc-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
+    font-size: 1rem;
   }
   
   .bfa-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
+    1rem
   }
   
   .bfc-link {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: var(--red-realtify);
+    font-size: 1rem;
   }
   
   .bfc-link:hover {
@@ -867,6 +875,7 @@ font-family: 'Roboto Slab', serif; */
     color: var(--white-realtify);
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 1rem;
+    font-size: 1.8;
   }
   
   .bfsi-input {
@@ -884,6 +893,7 @@ font-family: 'Roboto Slab', serif; */
   .bfc-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
+    
   }
   
   .bfa-paragraph {
