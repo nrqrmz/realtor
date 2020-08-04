@@ -685,14 +685,14 @@ font-family: 'Roboto Slab', serif; */
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     margin: 0 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   
   .bfb1 {    
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-right: 6rem;
+    margin-right: 4rem;
   }
   
   .bfb2 {
@@ -822,13 +822,11 @@ font-family: 'Roboto Slab', serif; */
   }
   
   .bfb1 {
-    margin-right: 6rem;
     display: flex;
     flex-direction: row;
   }
   
   .bfb2 {
-    margin-left: 6rem;
     display: flex;
     flex-direction: row;
   }
@@ -893,7 +891,7 @@ font-family: 'Roboto Slab', serif; */
   .bfc-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
-    
+
   }
   
   .bfa-paragraph {
