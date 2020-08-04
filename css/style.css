@@ -1159,3 +1159,19 @@ font-family: 'Roboto Slab', serif; */
 .srrwc-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 768px) {
+
+  .srr-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .srr-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
