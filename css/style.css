@@ -38,7 +38,6 @@
   background: var(--red-realtify);
   align-items: center;
   padding: 5px 0;
-  
 }
 
 .nav__logo {
@@ -52,7 +51,7 @@
 .nav__title {
   color: var(--white-realtify);
   font-family: 'Montserrat', sans-serif;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   margin-left: 5px;
 }
 
@@ -101,15 +100,13 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .mobile-nav {
     display: none;
   }
 
   .tablet-nav {
-    width: 100%; 
+    width: 100%;
     display: block;
-
   }
 
   .logo-title-wrapper {
@@ -130,7 +127,7 @@
     border-radius: 50%;
     width: 65px;
   }
-  
+
   .nav__title {
     color: var(--white-realtify);
     font-family: 'Montserrat', sans-serif;
@@ -138,13 +135,13 @@
     margin-left: 5px;
     font-size: 2.75rem;
   }
-  
-  .nav__icons-container {  
+
+  .nav__icons-container {
     align-items: center;
     margin-right: 2rem;
     background: var(--red-realtify);
   }
-  
+
   .nav__icons-border {
     background: var(--gray-realtify);
     border: 3px solid var(--white-realtify);
@@ -157,15 +154,15 @@
     color: var(--white-realtify);
     margin: 0 0.4rem 0 1rem;
   }
-  
+
   .icons-style {
     color: var(--white-realtify);
   }
-  
+
   .icons-style:hover {
     color: var(--white-realtify);
   }
-  
+
   .nav__icons-border:hover {
     background: var(--red-realtify);
     border-radius: 50%;
@@ -183,7 +180,7 @@
     padding: 0 0.5rem;
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
-  } 
+  }
 
   .nav__icons-links:hover {
     text-decoration: underline;
@@ -210,7 +207,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .nav__icons-container {
     display: none;
   }
@@ -221,7 +217,6 @@
     margin-right: 2rem;
     background: var(--red-realtify);
   }
-  
 }
 
 /* Main */
@@ -241,7 +236,7 @@
 .ny__translucent {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 100%;;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,26 +278,22 @@
 .search-input {
   margin: 0;
   border: 0;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
   width: 250px;
   line-height: 2rem;
   text-align: center;
-}
-
-.search-btn {
-  background: var(--red-realtify);
-  color: var(--white-realtify);
-  border: none;
-  width: 100%;
-  margin: 0;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  line-height: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
 }
 
 .search-btn-link {
   color: var(--white-realtify);
+  text-decoration: none;
+  background: var(--red-realtify);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.search-btn-link:hover {
   text-decoration: none;
 }
 
@@ -317,8 +308,7 @@
 }
 
 @media screen and (min-width: 768px) {
-
-  .nyt-main-titlesm {    
+  .nyt-main-titlesm {
     display: none;
   }
 
@@ -356,7 +346,7 @@
 
 .four__steps-cards:hover {
   background: #efefff;
-  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.50);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.50);
   border-radius: 5px;
   transition: all 0.3s ease-in;
 }
@@ -386,12 +376,10 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .four__steps-grid {
     padding: 0 3rem;
     grid-gap: 3rem;
   }
-
 }
 
 .banners__and__features {
@@ -415,6 +403,7 @@
   width: 100%;
   background: var(--gray-realtify);
 }
+
 .baf-container3 {
   display: flex;
   justify-content: space-between;
@@ -475,7 +464,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .baf-wrapper {
     margin: 2rem 0 2rem 2rem;
   }
@@ -487,14 +475,13 @@
   .baf-image {
     padding: 0 1rem 0 0;
   }
-  
+
   .bafi-img {
     width: 200px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-
   .baf-wrapper {
     margin: 2.5rem 0 2.5rem 3rem;
   }
@@ -506,7 +493,7 @@
   .baf-image {
     padding: 0 1rem 0 0;
   }
-  
+
   .bafi-img {
     width: 250px;
   }
@@ -546,13 +533,13 @@
 }
 
 .bfb1 {
-  margin-right: 0rem;
+  margin-right: 0;
   display: flex;
   flex-direction: column;
 }
 
 .bfb2 {
-  margin-left: 0rem;
+  margin-left: 0;
   display: flex;
   flex-direction: column;
 }
@@ -648,19 +635,18 @@
   color: var(--red-realtify);
 }
 
-
 @media screen and (min-width: 768px) {
   .black__footer {
     background: var(--dark-realtify);
     width: 100%;
   }
-  
+
   .bf-wrapper1 {
     background: var(--dark-realtify);
     padding: 3rem 0;
     text-align: center;
   }
-  
+
   .bf-bar1 {
     display: flex;
     align-items: center;
@@ -672,7 +658,7 @@
     background: var(--dark-realtify);
     position: relative;
   }
-  
+
   .bf-links {
     color: var(--white-realtify);
     text-decoration: none;
@@ -680,33 +666,33 @@
     margin: 0 1rem;
     font-size: 0.8rem;
   }
-  
-  .bfb1 {    
+
+  .bfb1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-right: 4rem;
   }
-  
+
   .bfb2 {
     margin-left: 6rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  
+
   .bf-image {
     margin: 0 1rem;
     position: absolute;
   }
-  
+
   .bf-img {
     width: 100px;
     filter: grayscale(100%);
     border: 10px solid var(--gray-realtify);
     border-radius: 50%;
   }
-  
+
   .bf-wrapper2 {
     display: flex;
     justify-content: center;
@@ -715,67 +701,67 @@
     text-align: center;
     margin: 0 4rem;
   }
-  
+
   .bf-bar2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .bf-subscribe {
     width: 30%;
   }
-  
+
   .bf-contact {
     width: 30%;
   }
-  
+
   .bf-about {
     width: 30%;
   }
-  
+
   .bfs-title {
     color: var(--white-realtify);
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 1rem;
     font-size: 1.2rem;
   }
-  
+
   .bfsi-input {
     line-height: 1.5rem;
     text-indent: 10px;
   }
-  
+
   .bfsi-button {
     line-height: 1.5rem;
     padding: 0 0.5rem;
     background: var(--gray-realtify);
     color: var(--white-realtify);
   }
-  
+
   .bfc-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
     font-size: 1rem;
   }
-  
+
   .bfa-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
     font-size: 1rem;
   }
-  
+
   .bfc-link {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: var(--red-realtify);
     font-size: 1rem;
   }
-  
+
   .bfc-link:hover {
     text-decoration: underline;
   }
-  
+
   .bfa-link {
     font-family: 'Montserrat', sans-serif;
     color: var(--red-realtify);
@@ -783,18 +769,17 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .black__footer {
     background: var(--dark-realtify);
     width: 100%;
   }
-  
+
   .bf-wrapper1 {
     background: var(--dark-realtify);
     padding: 3rem 0;
     text-align: center;
   }
-  
+
   .bf-bar1 {
     display: flex;
     align-items: center;
@@ -806,36 +791,36 @@
     background: var(--dark-realtify);
     position: relative;
   }
-  
+
   .bf-links {
     color: var(--white-realtify);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    margin: 0 1rem;  
+    margin: 0 1rem;
   }
-  
+
   .bfb1 {
     display: flex;
     flex-direction: row;
   }
-  
+
   .bfb2 {
     display: flex;
     flex-direction: row;
   }
-  
+
   .bf-image {
     margin: 0 1rem;
     position: absolute;
   }
-  
+
   .bf-img {
     width: 100px;
     filter: grayscale(100%);
     border: 10px solid var(--gray-realtify);
     border-radius: 50%;
   }
-  
+
   .bf-wrapper2 {
     display: flex;
     justify-content: center;
@@ -844,64 +829,63 @@
     text-align: center;
     margin: 0 4rem;
   }
-  
+
   .bf-bar2 {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .bf-subscribe {
     width: 30%;
   }
-  
+
   .bf-contact {
     width: 30%;
   }
-  
+
   .bf-about {
     width: 30%;
   }
-  
+
   .bfs-title {
     color: var(--white-realtify);
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 1rem;
     font-size: 1.8;
   }
-  
+
   .bfsi-input {
     line-height: 1.5rem;
     text-indent: 10px;
   }
-  
+
   .bfsi-button {
     line-height: 1.5rem;
     padding: 0 0.5rem;
     background: var(--gray-realtify);
     color: var(--white-realtify);
   }
-  
+
   .bfc-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
-
   }
-  
+
   .bfa-paragraph {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.5rem;
   }
-  
+
   .bfc-link {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: var(--red-realtify);
   }
-  
+
   .bfc-link:hover {
     text-decoration: underline;
   }
-  
+
   .bfa-link {
     font-family: 'Montserrat', sans-serif;
     color: var(--red-realtify);
@@ -912,13 +896,12 @@
   background: var(--gray2-realtify);
   width: 100%;
   padding: 1rem 0;
-
 }
 
 .gf-icons {
   display: flex;
   justify-content: space-evenly;
-  width: 100%
+  width: 100%;
 }
 
 .gf-links {
@@ -939,11 +922,10 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .gf-icons {
     display: flex;
     justify-content: flex-start;
-    width: 50%
+    width: 50%;
   }
 
   .gfi-style {
@@ -1022,20 +1004,15 @@
   text-decoration: none;
 }
 
-
-
 @media screen and (min-width: 1024px) {
-  
   .srsearch-box {
     width: 100%;
     margin: 3rem 0;
     padding: 2rem 0;
-
   }
 
   .srsb-title {
-    
-    padding-bottom: 1rem; /* so what?! */
+    padding-bottom: 1rem;
     font-size: 1.5rem;
     text-align: center;
   }
@@ -1046,29 +1023,27 @@
     width: auto;
     padding: 0 0;
     justify-content: center;
-    /* border: 1px solid blue; */
   }
-  
+
   .srsbw-cont {
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
   }
-  
+
   .srsbwb-cont {
-    width: auto;    
+    width: auto;
     padding: 1.9rem 0 0 0.5rem;
-    margin: 0;   
+    margin: 0;
   }
-  
 
   .srsbwlh {
     padding: 0.1rem 0;
     width: 150px;
     text-indent: 10px;
-    margin-left: 5px;    
+    margin-left: 5px;
   }
-  
+
   .srsbwi {
     text-indent: 10px;
     width: 150px;
@@ -1098,7 +1073,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 40px 40px 40px 40px 40px;
-  grid-template-areas: 
+  grid-template-areas:
     "image image"
     "title title"
     "description description"
@@ -1114,7 +1089,7 @@
 
 .srrwc-img {
   width: 100%;
-  grid-area: image;  
+  grid-area: image;
 }
 
 .srrwc-title {
@@ -1145,7 +1120,7 @@
   text-decoration: none;
   background: var(--red-realtify);
   width: fit-content;
-  padding: 0.8rem 1rem 0rem 1rem;
+  padding: 0.8rem 1rem 0 1rem;
   border-radius: 10px;
 }
 
@@ -1154,7 +1129,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .srr-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1164,7 +1138,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  
   .srr-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 1.5rem;
@@ -1179,10 +1152,10 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 40px 1fr 40px 40px 40px 40px 40px;
   grid-template-areas:
-    "details details" 
+    "details details"
     "image image"
     "title title"
-    "description description"    
+    "description description"
     "address address"
     "category category"
     "phone phone";
@@ -1199,7 +1172,7 @@
 
 .dtc-img {
   width: 100%;
-  grid-area: image;  
+  grid-area: image;
 }
 
 .dtc-title {
@@ -1235,10 +1208,10 @@
 }
 
 .dti-h1 {
-  padding-left: 0.5rem;  
+  padding-left: 0.5rem;
 }
 
-.dti-grid {  
+.dti-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
@@ -1250,15 +1223,14 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .dt-cont {
     grid-template-columns: 3fr 2fr;
-    grid-template-rows: 40px 40px 40px 40px 40px ;
+    grid-template-rows: 40px 40px 40px 40px 40px;
     grid-template-areas:
-      "details details" 
+      "details details"
       "image title"
       "image description"
-      "image address"    
+      "image address"
       "image category"
       "image phone";
     text-align: left;
@@ -1270,15 +1242,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .dt-cont {
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 40px 40px 40px 40px 40px ;
+    grid-template-rows: 40px 40px 40px 40px 40px;
     grid-template-areas:
-      "details details" 
+      "details details"
       "image title"
       "image description"
-      "image address"    
+      "image address"
       "image category"
       "image phone";
   }
