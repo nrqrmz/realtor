@@ -1166,6 +1166,7 @@ font-family: 'Roboto Slab', serif; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+    padding: 0 1rem;
   }
 }
 
@@ -1173,5 +1174,6 @@ font-family: 'Roboto Slab', serif; */
   
   .srr-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 1.5rem;
   }
 }
