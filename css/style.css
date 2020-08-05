@@ -115,7 +115,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 450px;
   width: 100%;
   background-image: url(../assets/centralpark.jpg);
   background-repeat: no-repeat;
@@ -185,9 +185,9 @@
 }
 
 .hiw {
-  color: white;
+  color: ;
   text-decoration: none;
-  background: var(--gray-realtify);
+  background: rgba(255, 255, 255, 0.4);
   padding: 0.5rem;
   font-family: 'Montserrat', sans-serif;
   border: 1px solid var(--black-realtify);
@@ -537,8 +537,9 @@
 }
 
 .srresults {
-  width: 100%;
+  width: 90%;
   text-align: center;
+  margin: 0 1rem;
 }
 
 .srr-title {
@@ -792,6 +793,10 @@
 
   .extra-icons {
     display: none;
+  }
+
+  .ny__bg {
+    height: 500px;
   }
 
   .nyt-main-titlesm {
