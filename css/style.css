@@ -185,12 +185,14 @@
 }
 
 .hiw {
-  color: ;
+  color: var(--black-realtify);
+  font-weight: bold;
   text-decoration: none;
   background: rgba(255, 255, 255, 0.4);
   padding: 0.5rem;
   font-family: 'Montserrat', sans-serif;
   border: 1px solid var(--black-realtify);
+  border-radius: 5px;
   margin-top: 3rem;
 }
 
@@ -392,6 +394,10 @@
 .bf-bar2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.bfs-item {
   justify-content: center;
 }
 
