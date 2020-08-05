@@ -614,7 +614,6 @@
   text-decoration: underline;
 }
 
-
 /* Details Page */
 
 .dt-cont {
@@ -1026,7 +1025,6 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
 
 @media screen and (min-width: 1024px) {
   .nav__icons-container {
