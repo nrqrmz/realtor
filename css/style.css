@@ -1248,6 +1248,8 @@
     width: 150px;
     text-indent: 10px;
     margin-left: 5px;
+    color: var(--gray2-realtify);
+    font-weight: bold;
   }
 
   .srsbwi {

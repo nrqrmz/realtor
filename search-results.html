@@ -168,12 +168,12 @@
       <form class="srsb-wrapper">
 
         <div class="srsbw-cont">
-          <label for="what">Keyword</label>
+          <label for="what" class="srsbwlh">Keyword</label>
           <input type="text" id="what" placeholder="Enter a keyword" class="srsbwi">
         </div>
         
         <div class="srsbw-cont">
-          <label for="state">State</label>
+          <label for="state" class="srsbwlh">State</label>
           <select id="state" class="srsbwlh">
             <option value="AL">Select</option>
             <option value="AL">AL</option>
@@ -230,7 +230,7 @@
         </div>
 
         <div class="srsbw-cont">
-          <label for="county">County</label>
+          <label for="county" class="srsbwlh">County</label>
           <select id="county" class="srsbwlh">
             <option value="Select">Select</option>
             <option value="Other">Other</option>          
@@ -238,7 +238,7 @@
         </div>
 
         <div class="srsbw-cont">
-          <label for="type">Type</label>
+          <label for="type" class="srsbwlh">Type</label>
           <select id="type" class="srsbwlh">
             <option value="Select">Select</option>
             <option value="house">House</option>
@@ -247,25 +247,18 @@
         </div>
 
         <div class="srsbw-cont">
-          <label for="rent">Rent / Sale</label>
+          <label for="rent" class="srsbwlh">Rent / Sale</label>
           <select id="rent" class="srsbwlh">
             <option value="Select">Select</option>
             <option value="rent">For Rent</option>
             <option value="sale">For Sale</option>
           </select>
         </div>
+
+        <button onclick="document.location='search-results.html#houses'" class="srsbwb1">Search</button>   
         
-        <div class="srsbwb-cont">
-          <a href="#houses" class="srsbwb1">
-            Search
-          </a>
-        </div>
+        <button onclick="document.location='search-results.html#searching'" class="srsbwb2">Clear Search</button>
         
-        <div class="srsbwb-cont">
-          <a href="#searching" class="srsbwb2">
-            Clear filter
-          </a>
-        </div>               
       </form>
     </div>
 
