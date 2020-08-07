@@ -112,7 +112,6 @@
   justify-content: center;
   align-items: center;
   height: 450px;
-  /* width: 100%; prk*/
   background-image: url(../assets/centralpark.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -121,7 +120,6 @@
 
 .ny__translucent {
   background-color: rgba(0, 0, 0, 0.3);
-  /* width: 100%; prk*/
   height: 100%;
   display: flex;
   justify-content: center;
@@ -243,7 +241,6 @@
 .banners__and__features {
   display: flex;
   flex-direction: column;
-  /* width: 100%; prk */
 }
 
 .baf-container1 {
@@ -251,7 +248,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 100%; prk */
   background: var(--red-realtify);
 }
 
@@ -260,7 +256,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 100%; prk */
   background: var(--gray-realtify);
 }
 
@@ -269,7 +264,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 100%; prk */
   background: var(--blue-realtify);
 }
 
@@ -328,7 +322,6 @@
 
 .black__footer {
   background: var(--dark-realtify);
-  /* width: 100%; prk */
 }
 
 .bf-wrapper1 {
@@ -457,14 +450,12 @@
 
 .gray__footer {
   background: var(--gray2-realtify);
-  /* width: 100%; prk*/
   padding: 1rem 0;
 }
 
 .gf-icons {
   display: flex;
   justify-content: space-evenly;
-  /* width: 100%; prk */
 }
 
 .gf-links {
@@ -492,7 +483,6 @@
   justify-content: center;
   align-items: center;
   background: var(--lightgray-realtify);
-  /* width: 100%; prk*/
   margin: 3rem 0;
   padding: 2rem 0;
 }
@@ -554,13 +544,11 @@
 }
 
 .srr-wrapper {
-  /* width: 100%; prk */
   font-family: 'Montserrat', sans-serif;
   color: var(--gray-realtify);
 }
 
 .srrw-cont {
-  /* width: 100%; prk */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 40px 40px 40px 40px 40px;
@@ -579,7 +567,6 @@
 }
 
 .srrwc-img {
-  /* width: 100%; prk */
   grid-area: image;
 }
 
