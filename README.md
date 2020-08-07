@@ -11,7 +11,7 @@ The purpose of thes project is demonstrate proficiency using HTML5 and CSS3. The
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/nrqrmz/realtor/408f04ea7a574bc409f5cc4a7ee730eefb8f2a05/index.html)
+- [Live Demo Link](https://raw.githack.com/nrqrmz/realtor/testing-branch/search-results.html)
 
 
 ## Author
