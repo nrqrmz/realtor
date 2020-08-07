@@ -568,6 +568,7 @@
 
 .srrwc-img {
   grid-area: image;
+  width: 100%;
 }
 
 .srrwc-title {
