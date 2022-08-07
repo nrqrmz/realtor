@@ -6,6 +6,8 @@
   margin: 0;
 }
 
+/* these are the root colors */
+
 :root {
   --red-realtify: #d35649;
   --blue-realtify: #509bd7;
